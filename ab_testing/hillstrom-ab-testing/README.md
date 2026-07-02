@@ -189,3 +189,37 @@ hillstrom-ab-testing/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+How to Run This Project
+1. Clone the repository
+git clone https://github.com/Phiziics/Product_ml.git
+cd product_ml/ab_testing/hillstrom-ab-testing
+2. Create a virtual environment
+python -m venv .venv
+3. Activate the environment
+
+Windows PowerShell:
+
+.venv\Scripts\Activate
+4. Install dependencies
+pip install -r requirements.txt
+5. Launch Jupyter Notebook
+jupyter notebook
+
+Open:
+
+notebooks/01_data_understanding.ipynb
+Portfolio Value
+
+This project demonstrates practical data science skills that are directly useful in product, marketing, ecommerce, and experimentation roles.
+
+Skills shown:
+
+Business problem framing
+Real-world experiment analysis
+Statistical testing
+Revenue impact analysis
+Customer segmentation
+Data visualization
+Business storytelling
+GitHub-ready project organization
