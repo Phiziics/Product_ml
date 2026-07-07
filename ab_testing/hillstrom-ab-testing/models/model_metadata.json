@@ -1,0 +1,32 @@
+{
+  "model_type": "Logistic Regression T-Learner",
+  "treatment_label": "Mens E-Mail",
+  "control_label": "No E-Mail",
+  "target_column": "conversion",
+  "feature_columns": [
+    "recency",
+    "history",
+    "history_segment",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel"
+  ],
+  "numeric_features": [
+    "recency",
+    "history"
+  ],
+  "categorical_features": [
+    "history_segment",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel"
+  ],
+  "treatment_training_rows": 21307,
+  "control_training_rows": 21306,
+  "treatment_conversion_rate": 0.01253109306800582,
+  "control_conversion_rate": 0.005726086548390125
+}
